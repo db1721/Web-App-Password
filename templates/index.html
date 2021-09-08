@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>Create A Password</h1>
+    <form action="/register" method="post">
+        <input name="name" placeholder="User Name" type="text">
+        <input name="password" placeholder="Password" type="password">
+        </br>
+        <input type="submit" value="Log In">
+    </form>
+{% endblock %}

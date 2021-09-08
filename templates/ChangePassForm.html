@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>Create A Password</h1>
+    <form action="/changepass" method="post">
+        <input name="change_password" placeholder="New Password" type="password">
+        </br>
+        <input type="submit" value="Change Password">
+    </form>
+{% endblock %}
